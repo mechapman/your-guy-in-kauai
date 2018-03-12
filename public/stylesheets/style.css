@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+
+html
+{
+	background-color: rgb(164, 221, 164);
+
+	margin: 0;
+	padding: 0;
+}
+body
+{	
+	background-color: rgba(234,234,234,0.8);
+	font-family: Sans-Serif;
+	margin: 0 auto;
+}	
+
+.blog
+{
+	margin: 20px auto;
+	max-width: 1500px;
+}
+
+header
+{
+	background-image: url("../images/kauai4.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	/*background-position: center bottom;*/
+	/*background-size: cover;*/
+	margin: 0 auto;
+	padding: 90px 0;
+}
+
+a:link {
+    text-decoration: none;
+	color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    text-decoration: underline;
+	color: black;
+	background-color: rgba(94, 88, 88, 0.342);
+}
+
+li.active {
+    text-decoration: underline;
+	color: black;
+	background-color: rgba(234,234,234,0.65);
+}
+
+nav
+{
+	background-color: rgb(201, 192, 192);
+	padding: 0px;
+}
+
+nav ul
+{
+	list-style-type: none;
+	margin: 0px;
+	/*text-align: center;*/
+	padding: 0px;
+}
+
+nav li
+{
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 0;
+}
+
+aside
+{
+	/*display: inline-block;*/
+	width: 15%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	border: 3px solid;
+	border-radius: 6px;
+	float: left;
+}
+
+.posts
+{
+	width: 70%;
+	margin: 0 5% 0 25%;
+	overflow: hidden;
+	/*border: 3px solid;
+	border-radius: 6px;*/
+	text-align: center;
+}
+
+div.header-image
+{
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1000px;
+}
+
+img.header-img
+{
+	width: 100%
+}
+
+article p,li {
+	text-align: left;
+}
